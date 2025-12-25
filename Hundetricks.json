@@ -1,17 +1,17 @@
 {
   "meta_info": {
-    "title": "Umfassende Enzyklopädie der Hundetricks",
-    "description": "Erweiterte Datenbank für Hundetricks, unterteilt nach Schwierigkeitsgraden, inklusive neuer Variationen und komplexer Handlungsketten.",
-    "version": "2.0",
-    "last_updated": "2025"
+    "title": "Hunde Tricks",
+    "description": "Tricks zum abhacken",
+    "version": "KK ruve Version",
+    "last_updated": null
   },
   "trick_database": {
     "beginner": {
       "meta": {
-        "category_name": "Basistricks für Anfänger",
+        "category_name": "Anfänger (Green)",
         "color_code": "green",
         "level_index": 1,
-        "description": "Grundlagen, Impulskontrolle und einfache Bewegungen für den Einstieg."
+        "description": "Basis-Kommunikation, einfache Targets und Grundgehorsam."
       },
       "list": [
         {
@@ -19,488 +19,920 @@
           "position": "1.1",
           "kategorie": "Anfänger",
           "titel": "Sitz",
-          "bewegungsablauf": "Der Hund geht aus dem Stehen in eine sitzende Position über, indem er seine Hinterläufe einknickt und das Gesäß auf dem Boden absetzt.",
-          "endposition": "Der Hund sitzt aufrecht mit gestrecktem Rücken, die Vorderbeine stehen gerade auf dem Boden, das Hinterteil berührt vollständig den Boden.",
-          "trainingstipps": "Führe ein Leckerli über den Kopf des Hundes nach hinten - der Kopf geht hoch, das Hinterteil automatisch nach unten."
+          "handzeichen": "Zeigefinger der rechten Hand zeigt senkrecht nach oben.",
+          "bewegungsablauf": "Der Hund geht aus dem Stehen in eine sitzende Position über.",
+          "endposition": "Der Hund sitzt aufrecht, Blick zum Menschen.",
+          "trainingstipps": "Führe das Leckerli über den Kopf nach hinten.",
+          "steigerung": {
+            "variante_1": "Sitz direkt neben oder vor dem Menschen.",
+            "variante_2": "Sitz auf Distanz (2-5 Meter) oder aus der Bewegung.",
+            "variante_3": "Sitz unter starker Ablenkung (andere Hunde, fliegende Bälle) oder Not-Stopp auf Distanz."
+          }
         },
         {
           "id": "002",
           "position": "1.2",
           "kategorie": "Anfänger",
           "titel": "Platz",
-          "bewegungsablauf": "Aus der Sitz- oder Steh-Position senkt der Hund seinen gesamten Körper zum Boden ab.",
-          "endposition": "Der Hund liegt flach auf dem Boden. Brustkorb, Bauch und die Hinterhand haben Bodenkontakt.",
-          "trainingstipps": "Ziehe ein Leckerli vom Sitz aus gerade oder leicht schräg nach unten zum Boden."
+          "handzeichen": "Flache Handbewegung mit der Handfläche nach unten.",
+          "bewegungsablauf": "Der Hund senkt den gesamten Körper ab.",
+          "endposition": "Der Hund liegt flach auf dem Boden.",
+          "trainingstipps": "Ziehe das Leckerli von der Nase senkrecht nach unten.",
+          "steigerung": {
+            "variante_1": "Platz direkt beim Menschen.",
+            "variante_2": "Platz und Bleib (Halter geht außer Sichtweite).",
+            "variante_3": "Platz aus dem Lauf heraus (Trillerpfiff/Kommando)."
+          }
         },
         {
           "id": "003",
           "position": "1.3",
           "kategorie": "Anfänger",
-          "titel": "Pfote geben (Pfötchen)",
-          "bewegungsablauf": "Aus der Sitz-Position hebt der Hund eine Vorderpfote vom Boden und bewegt sie zur Hand des Menschen.",
-          "endposition": "Der Hund sitzt, eine Vorderpfote liegt in der offenen Handfläche des Menschen.",
-          "trainingstipps": "Halte ein Leckerli in der geschlossenen Faust - der Hund wird versuchen, danach zu graben."
+          "titel": "Steh",
+          "handzeichen": "Handfläche zeigt zum Hund, leicht nach oben/vorne ziehen.",
+          "bewegungsablauf": "Der Hund steht aus dem Sitz/Platz auf.",
+          "endposition": "Ruhiges Stehen auf vier Pfoten.",
+          "trainingstipps": "Ziehe das Leckerli waagerecht vom Körper weg.",
+          "steigerung": {
+            "variante_1": "Wechsel von Sitz zu Steh.",
+            "variante_2": "Steh aus der Bewegung (Hund stoppt sofort).",
+            "variante_3": "Steh zur tierärztlichen Untersuchung (langes, ruhiges Stehen beim Abtasten)."
+          }
         },
         {
           "id": "004",
           "position": "1.4",
           "kategorie": "Anfänger",
-          "titel": "Andere Pfote",
-          "bewegungsablauf": "Identisch zum normalen Pfötchen geben, nur dass der Hund die jeweils andere Vorderpfote hebt.",
-          "endposition": "Wie beim Pfötchen geben, aber mit der alternativen Pfote in der Hand.",
-          "trainingstipps": "Trainiere beide Pfoten separat durch Wechsel der Handposition."
+          "titel": "Pfote",
+          "handzeichen": "Offene Handfläche auf Kniehöhe.",
+          "bewegungsablauf": "Der Hund legt eine Vorderpfote in die Hand.",
+          "endposition": "Pfote ruht in der Menschenhand.",
+          "trainingstipps": "Kitzle leicht hinter dem Bein.",
+          "steigerung": {
+            "variante_1": "Kurzes Berühren der Hand.",
+            "variante_2": "Pfote dauerhaft in der Hand lassen (Händchen halten).",
+            "variante_3": "Pfote auf den Fuß des Menschen oder fremde Objekte legen."
+          }
         },
         {
           "id": "005",
           "position": "1.5",
           "kategorie": "Anfänger",
-          "titel": "High Five",
-          "bewegungsablauf": "Der Hund hebt die Pfote höher und klatscht mit seiner Pfote gegen die erhobene, flache Handfläche des Menschen.",
-          "endposition": "Pfote berührt vertikal die Handfläche des Menschen auf Brusthöhe oder höher.",
-          "trainingstipps": "Drehe die Hand schrittweise von horizontal (Pfote geben) nach vertikal."
+          "titel": "andere Pfote",
+          "handzeichen": "Andere Hand hinhalten.",
+          "bewegungsablauf": "Wechsel zur anderen Vorderpfote.",
+          "endposition": "Andere Pfote liegt in der Hand.",
+          "trainingstipps": "Belohne nur den Wechsel.",
+          "steigerung": {
+            "variante_1": "Einfacher Wechsel.",
+            "variante_2": "Schneller Wechsel (Tippel-Bewegung).",
+            "variante_3": "Unterscheidung 'Links' und 'Rechts' ohne Handhilfe."
+          }
         },
         {
           "id": "006",
           "position": "1.6",
           "kategorie": "Anfänger",
-          "titel": "Kopf ablegen",
-          "bewegungsablauf": "Aus der Platz-Position senkt der Hund seinen Kopf und legt das Kinn auf den Boden oder den Arm.",
-          "endposition": "Der Hund liegt entspannt, das Kinn hat Bodenkontakt.",
-          "trainingstipps": "Belohne den Moment, in dem das Kinn den Boden berührt."
+          "titel": "Tipp",
+          "handzeichen": "Vertikale flache Handfläche (Stoppschild).",
+          "bewegungsablauf": "Nase berührt Handfläche.",
+          "endposition": "Nasenstupser.",
+          "trainingstipps": "Futtergeruch an der Hand.",
+          "steigerung": {
+            "variante_1": "Hand direkt vor der Nase antippen.",
+            "variante_2": "Der Hand folgen (Target-Stick Ersatz) und im Sprung antippen.",
+            "variante_3": "Gezieltes Antippen von Objekten (Lichtschalter, Klingel) auf Distanz."
+          }
         },
         {
           "id": "007",
           "position": "1.7",
           "kategorie": "Anfänger",
-          "titel": "Winken",
-          "bewegungsablauf": "Der Hund hebt wiederholt eine Vorderpfote und bewegt sie auf und ab, ohne etwas zu berühren.",
-          "endposition": "Hund sitzt, Pfote ist in der Luft und macht winkende Bewegungen.",
-          "trainingstipps": "Ziehe die Hand beim Pfote-Geben im letzten Moment weg."
+          "titel": "High-five",
+          "handzeichen": "Vertikale Hand auf Kopfhöhe.",
+          "bewegungsablauf": "Pfote klatscht gegen die Hand.",
+          "endposition": "Pfote trifft Handfläche oben.",
+          "trainingstipps": "Hand höher halten als bei Pfote.",
+          "steigerung": {
+            "variante_1": "Kurzes Abklatschen.",
+            "variante_2": "Double High-Five (Beide Pfoten gleichzeitig an zwei Hände).",
+            "variante_3": "High-Five aus der Distanz (in die Luft klatschen)."
+          }
         },
         {
           "id": "008",
           "position": "1.8",
           "kategorie": "Anfänger",
-          "titel": "Nasentouch",
-          "bewegungsablauf": "Der Hund berührt mit seiner Nase gezielt die Handfläche oder einen Target-Stick.",
-          "endposition": "Kurzer, deutlicher Kontakt der Nase mit dem Ziel.",
-          "trainingstipps": "Reibe etwas Leckerli-Geruch an die Handfläche und halte sie hin."
+          "titel": "Küsschen",
+          "handzeichen": "Zeigefinger an die Wange.",
+          "bewegungsablauf": "Lecken der Wange.",
+          "endposition": "Zungenkontakt.",
+          "trainingstipps": "Klebeband/Leberwurst auf Wange.",
+          "steigerung": {
+            "variante_1": "Küsschen auf die Hand.",
+            "variante_2": "Küsschen auf die Wange.",
+            "variante_3": "Küsschen auf Abruf bei einer anderen Person."
+          }
         },
         {
           "id": "009",
           "position": "1.9",
           "kategorie": "Anfänger",
-          "titel": "Küsschen geben",
-          "bewegungsablauf": "Der Hund stupst sanft die Wange oder Hand des Menschen.",
-          "endposition": "Sanfter Schnauzenkontakt mit der Haut.",
-          "trainingstipps": "Nutze ein Signalwort wie 'Küsschen' kurz vor dem Lecken/Stupsen."
+          "titel": "Fang",
+          "handzeichen": "Wurfbewegung.",
+          "bewegungsablauf": "Schnappen aus der Luft.",
+          "endposition": "Objekt im Maul.",
+          "trainingstipps": "Hoher Bogen direkt auf Nase.",
+          "steigerung": {
+            "variante_1": "Große, weiche Leckerlis aus kurzer Distanz.",
+            "variante_2": "Kleine Objekte oder Bälle aus größerer Distanz.",
+            "variante_3": "Fangen während des Laufens (Frisbee-Ansatz)."
+          }
         },
         {
           "id": "010",
           "position": "1.10",
           "kategorie": "Anfänger",
-          "titel": "Mitte (Middle)",
-          "bewegungsablauf": "Der Hund geht hinter den Menschen und stellt sich zwischen dessen Beine.",
-          "endposition": "Der Hund steht/sitzt zwischen den Beinen des Menschen, beide schauen in die gleiche Richtung.",
-          "trainingstipps": "Führe den Hund mit Futter in einem Bogen hinter dich und durch die Beine nach vorn."
+          "titel": "Such",
+          "handzeichen": "Handbewegung Richtung Boden/Raum.",
+          "bewegungsablauf": "Naseneinsatz zum Finden.",
+          "endposition": "Objekt gefunden.",
+          "trainingstipps": "Objekt erst zeigen, dann verstecken.",
+          "steigerung": {
+            "variante_1": "Einfache Objekte: Futterbeutel, Ball oder Spielzeug sichtbar oder leicht versteckt im hohen Gras.",
+            "variante_2": "Fortgeschritten: Unbekannte Verstecke, Objekt unter Handtüchern, in Kisten oder erhöht (auf Baumstumpf) versteckt.",
+            "variante_3": "Profi (Biosphäre/Personen): Spezifische Geruchsunterscheidung (Trüffel, Pilze, Geld) oder Mantrailing (Finden einer versteckten Person)."
+          }
         },
         {
           "id": "011",
           "position": "1.11",
           "kategorie": "Anfänger",
-          "titel": "Um Person herumlaufen",
-          "bewegungsablauf": "Der Hund umkreist den stehenden Menschen vollständig.",
-          "endposition": "Hund steht wieder vor dem Menschen.",
-          "trainingstipps": "Führe den Hund anfangs mit einem Leckerli eng um dich herum."
+          "titel": "Gib",
+          "handzeichen": "Offene Hand unter dem Maul.",
+          "bewegungsablauf": "Objekt loslassen.",
+          "endposition": "Objekt in Hand.",
+          "trainingstipps": "Tauschgeschäft.",
+          "steigerung": {
+            "variante_1": "Tausch gegen Leckerli.",
+            "variante_2": "Ausgeben ohne Belohnung direkt in die Hand.",
+            "variante_3": "Fallenlassen auf Distanz (z.B. in eine Kiste)."
+          }
         },
         {
           "id": "012",
           "position": "1.12",
           "kategorie": "Anfänger",
-          "titel": "Schau (Blickkontakt)",
-          "bewegungsablauf": "Der Hund wendet den Blick vom Ablenkungen ab und schaut dem Menschen direkt in die Augen.",
-          "endposition": "Der Hund hält den Blickkontakt für einige Sekunden.",
-          "trainingstipps": "Führe ein Leckerli von der Nase des Hundes zu deinen Augen."
+          "titel": "Schau",
+          "handzeichen": "Zeigefinger auf eigene Augen.",
+          "bewegungsablauf": "Blickkontakt halten.",
+          "endposition": "Hund schaut in die Augen.",
+          "trainingstipps": "Leckerli zur Stirn führen.",
+          "steigerung": {
+            "variante_1": "Kurzer Blickkontakt in ruhiger Umgebung.",
+            "variante_2": "Blickkontakt halten beim Gehen (Basis für 'Fuß').",
+            "variante_3": "Blickkontakt halten trotz starker Ablenkung (andere Hunde)."
+          }
         },
         {
           "id": "013",
           "position": "1.13",
           "kategorie": "Anfänger",
-          "titel": "Steh (aus Sitz/Platz)",
-          "bewegungsablauf": "Der Hund drückt sich aus dem Sitz oder Platz mit allen Vieren in den Stand hoch.",
-          "endposition": "Der Hund steht ruhig auf allen vier Pfoten.",
-          "trainingstipps": "Ziehe das Leckerli von der Hundenase waagerecht vom Körper weg."
+          "titel": "Touch (Boden)",
+          "handzeichen": "Zeigen auf Bodentarget.",
+          "bewegungsablauf": "Pfote berührt Gegenstand.",
+          "endposition": "Pfote auf Target.",
+          "trainingstipps": "Clicker bei Berührung.",
+          "steigerung": {
+            "variante_1": "Berühren eines großen Targets (Deckel) mit der Pfote.",
+            "variante_2": "Hinterpfoten-Targeting (Rückwärts draufgehen).",
+            "variante_3": "Targeting auf kleinen, instabilen Objekten (Balance)."
+          }
         },
         {
           "id": "014",
           "position": "1.14",
           "kategorie": "Anfänger",
-          "titel": "Fang",
-          "bewegungsablauf": "Der Hund schnappt ein zugeworfenes Leckerli oder Spielzeug aus der Luft.",
-          "endposition": "Der Hund hat das Objekt im Maul.",
-          "trainingstipps": "Beginne mit sehr kurzen Würfen (hoher Bogen) direkt über die Schnauze."
+          "titel": "Warte",
+          "handzeichen": "Stopphand.",
+          "bewegungsablauf": "Verharren in Position.",
+          "endposition": "Statisch.",
+          "trainingstipps": "Zeit langsam steigern.",
+          "steigerung": {
+            "variante_1": "Kurzes Warten am Futternapf.",
+            "variante_2": "Warten an der offenen Tür/Kofferraum.",
+            "variante_3": "Warten während der Besitzer sich versteckt/wegläuft."
+          }
         },
         {
           "id": "015",
           "position": "1.15",
           "kategorie": "Anfänger",
-          "titel": "Kinn (Target)",
-          "bewegungsablauf": "Der Hund legt sein Kinn in die flache, offene Hand des Menschen.",
-          "endposition": "Der Kopf des Hundes ruht schwer in der Handfläche.",
-          "trainingstipps": "Forme eine Hand zur Schale und locke das Kinn hinein, belohne den Druck."
+          "titel": "Hier",
+          "handzeichen": "Ausgebreitete Arme.",
+          "bewegungsablauf": "Herankommen.",
+          "endposition": "Nah beim Menschen.",
+          "trainingstipps": "Freudig rufen.",
+          "steigerung": {
+            "variante_1": "Kommen ohne Ablenkung.",
+            "variante_2": "Abruf aus dem Spiel mit anderen Hunden.",
+            "variante_3": "Notfall-Rückruf (Super-Schlachtruf) bei Wildsichtung."
+          }
         },
         {
           "id": "016",
           "position": "1.16",
           "kategorie": "Anfänger",
-          "titel": "Such (Leckerli)",
-          "bewegungsablauf": "Der Hund setzt seine Nase ein, um versteckte Leckerlis am Boden zu finden.",
-          "endposition": "Der Hund findet und frisst das Objekt.",
-          "trainingstipps": "Zeige dem Hund das Leckerli, lege es sichtbar ab, gib das Signal 'Such'."
+          "titel": "Teppich",
+          "handzeichen": "Zeigen auf Platz.",
+          "bewegungsablauf": "Geht zum Liegeplatz.",
+          "endposition": "Liegt auf Decke.",
+          "trainingstipps": "Dort füttern.",
+          "steigerung": {
+            "variante_1": "Hingehen aus 1 Meter Entfernung.",
+            "variante_2": "Schicken aus einem anderen Zimmer.",
+            "variante_3": "Dauerhaftes Bleiben auf der Decke, auch wenn es klingelt."
+          }
         },
         {
           "id": "017",
           "position": "1.17",
           "kategorie": "Anfänger",
-          "titel": "Touch (Pfote)",
-          "bewegungsablauf": "Der Hund berührt mit seiner Pfote einen Zielgegenstand (z.B. Bodentarget, Deckel).",
-          "endposition": "Die Pfote steht auf oder berührt das Target.",
-          "trainingstipps": "Unterscheide dies vom 'Pfote geben' (Hand) - hier geht es um Objekte."
+          "titel": "Nimm",
+          "handzeichen": "Zeigen + Nicken.",
+          "bewegungsablauf": "Darf Futter nehmen.",
+          "endposition": "Frisst.",
+          "trainingstipps": "Auflösung von 'Nein'.",
+          "steigerung": {
+            "variante_1": "Nehmen aus der Hand.",
+            "variante_2": "Nehmen vom Boden nach Freigabe.",
+            "variante_3": "Fangen eines Leckerlis in der Luft auf Kommando."
+          }
+        },
+        {
+          "id": "018",
+          "position": "1.18",
+          "kategorie": "Anfänger",
+          "titel": "Links",
+          "handzeichen": "Klopfen links.",
+          "bewegungsablauf": "Kommt an linke Seite.",
+          "endposition": "Sitzt links.",
+          "trainingstipps": "Futterführung.",
+          "steigerung": {
+            "variante_1": "Grundstellung einnehmen.",
+            "variante_2": "Mitlaufen an der linken Seite (Fuß).",
+            "variante_3": "Winkel und Wendungen im Fuß-Laufen."
+          }
         }
       ]
     },
     "advanced": {
       "meta": {
-        "category_name": "Tricks für Fortgeschrittene",
+        "category_name": "Fortgeschrittene (Yellow)",
         "color_code": "yellow",
         "level_index": 2,
-        "description": "Komplexere Bewegungsabläufe, Distanzarbeit und erste Handlungsketten."
+        "description": "Kombinationen, Handlungsketten und präzise Körperarbeit."
       },
       "list": [
         {
-          "id": "018",
+          "id": "019",
           "position": "2.1",
           "kategorie": "Fortgeschrittene",
-          "titel": "Männchen / Häschen",
-          "bewegungsablauf": "Der Hund richtet sich auf der Hinterhand auf, Vorderpfoten angewinkelt vor der Brust.",
-          "endposition": "Hund sitzt stabil auf dem Hinterteil, Rücken gestreckt (Erdmännchen-Pose).",
-          "trainingstipps": "Leckerli über den Kopf führen. Achtung: Viel Rückenmuskulatur nötig!"
-        },
-        {
-          "id": "019",
-          "position": "2.2",
-          "kategorie": "Fortgeschrittene",
-          "titel": "Dreh dich (Twist)",
-          "bewegungsablauf": "360-Grad-Drehung um die eigene Achse.",
-          "endposition": "Hund steht wieder in Ausgangsposition.",
-          "trainingstipps": "Führe den Hund mit weiter Handbewegung im Kreis."
+          "titel": "Häschen",
+          "handzeichen": "Hand ruhig über Nase.",
+          "bewegungsablauf": "Sitzt, Vorderpfoten hoch.",
+          "endposition": "Erdmännchen-Pose.",
+          "trainingstipps": "Rücken stützen.",
+          "steigerung": {
+            "variante_1": "Kurzes Anheben der Pfoten.",
+            "variante_2": "Halten der Balance für mehrere Sekunden.",
+            "variante_3": "Häschen und dabei den Kopf drehen oder Pfote geben."
+          }
         },
         {
           "id": "020",
-          "position": "2.3",
+          "position": "2.2",
           "kategorie": "Fortgeschrittene",
-          "titel": "Rückwärts laufen",
-          "bewegungsablauf": "Der Hund weicht gerade zurück, ohne sich umzudrehen.",
-          "endposition": "Hund steht einige Meter weiter hinten, Blick zum Menschen.",
-          "trainingstipps": "Nutze einen schmalen Gang (z.B. zwischen Sofa und Wand) als Begrenzung."
+          "titel": "Dreh dich",
+          "handzeichen": "Kreis im Uhrzeigersinn.",
+          "bewegungsablauf": "360 Grad Drehung rechts.",
+          "endposition": "Ausgangsposition.",
+          "trainingstipps": "Futter in Kreis führen.",
+          "steigerung": {
+            "variante_1": "Drehung mit Handführung.",
+            "variante_2": "Drehung auf Wortkommando ohne Hand.",
+            "variante_3": "Drehung aus der Entfernung oder während des Laufens."
+          }
         },
         {
           "id": "021",
-          "position": "2.4",
+          "position": "2.3",
           "kategorie": "Fortgeschrittene",
-          "titel": "Rückwärts robben",
-          "bewegungsablauf": "Der Hund schiebt sich im 'Platz' liegend rückwärts.",
-          "endposition": "Hund liegt im Platz, weiter hinten als gestartet.",
-          "trainingstipps": "Aus dem Platz leicht gegen die Vorderpfoten/Brust drängen (sanft!)."
+          "titel": "Andersrum",
+          "handzeichen": "Kreis gegen Uhrzeigersinn.",
+          "bewegungsablauf": "360 Grad Drehung links.",
+          "endposition": "Ausgangsposition.",
+          "trainingstipps": "Andere Hand nutzen.",
+          "steigerung": {
+            "variante_1": "Drehung mit Handführung.",
+            "variante_2": "Mehrfache Drehungen hintereinander.",
+            "variante_3": "Schneller Wechsel zwischen 'Dreh dich' und 'Andersrum'."
+          }
         },
         {
           "id": "022",
-          "position": "2.5",
+          "position": "2.4",
           "kategorie": "Fortgeschrittene",
-          "titel": "Tot stellen (Peng)",
-          "bewegungsablauf": "Hund lässt sich aus Sitz oder Platz flach auf die Seite fallen.",
-          "endposition": "Hund liegt bewegungslos auf der Seite, Kopf am Boden.",
-          "trainingstipps": "Erst Platz, dann Kopf zur Seite locken bis der Schwerpunkt kippt."
+          "titel": "chill",
+          "handzeichen": "Handfläche nach oben.",
+          "bewegungsablauf": "Kinn in Hand legen.",
+          "endposition": "Kopf ruht.",
+          "trainingstipps": "Hand schalenförmig.",
+          "steigerung": {
+            "variante_1": "Kinn in die Hand legen.",
+            "variante_2": "Kinn auf den Boden/Gegenstand legen ('Flat').",
+            "variante_3": "Kinn ablegen und verharren, während Mensch sich entfernt."
+          }
         },
         {
           "id": "023",
-          "position": "2.6",
+          "position": "2.5",
           "kategorie": "Fortgeschrittene",
-          "titel": "Rolle (Roll over)",
-          "bewegungsablauf": "Komplette 360-Grad-Rolle über den Rücken am Boden.",
-          "endposition": "Hund liegt wieder im Platz oder steht auf.",
-          "trainingstipps": "Aus 'Tot stellen' weiter über den Rücken locken."
+          "titel": "Rum",
+          "handzeichen": "Bogenbewegung um Objekt.",
+          "bewegungsablauf": "Läuft um Objekt.",
+          "endposition": "Zurück beim Menschen.",
+          "trainingstipps": "Mitgehen, Abstand vergrößern.",
+          "steigerung": {
+            "variante_1": "Umrunden einer Pylone in der Nähe.",
+            "variante_2": "Umrunden von Bäumen/Masten auf Distanz (Schicken).",
+            "variante_3": "Acht laufen um zwei weit entfernte Objekte ('Revieren')."
+          }
         },
         {
           "id": "024",
-          "position": "2.7",
+          "position": "2.6",
           "kategorie": "Fortgeschrittene",
-          "titel": "Diener (Verbeugen)",
-          "bewegungsablauf": "Vorderkörper geht tief, Hinterbeine bleiben gestreckt stehen.",
-          "endposition": "Play-Bow Position: Po oben, Ellbogen am Boden.",
-          "trainingstipps": "Hand unter den Bauch halten, damit er sich nicht hinlegt."
+          "titel": "zwinken",
+          "handzeichen": "Winken neben Kopf.",
+          "bewegungsablauf": "Pfote hebt und senkt sich.",
+          "endposition": "Pfote in Luft.",
+          "trainingstipps": "Hand wegziehen.",
+          "steigerung": {
+            "variante_1": "Einmaliges Heben der Pfote.",
+            "variante_2": "Mehrfaches 'Winken' hintereinander.",
+            "variante_3": "Winken im Männchen/Häschen-Sitz."
+          }
         },
         {
           "id": "025",
-          "position": "2.8",
+          "position": "2.7",
           "kategorie": "Fortgeschrittene",
-          "titel": "Schäm dich",
-          "bewegungsablauf": "Pfote wischt über die eigene Schnauze/Augen.",
-          "endposition": "Pfote liegt kurzzeitig auf der Nase.",
-          "trainingstipps": "Klebeband oder Haargummi locker auf die Nase legen (Störreiz)."
+          "titel": "hop",
+          "handzeichen": "Klopfen auf Objekt.",
+          "bewegungsablauf": "Springt auf Objekt.",
+          "endposition": "Steht oben.",
+          "trainingstipps": "Rutschfester Grund.",
+          "steigerung": {
+            "variante_1": "Auf niedrige, breite Objekte (Bank) springen.",
+            "variante_2": "Auf kleine Flächen (Poller/Baumstumpf) springen und Sitz machen.",
+            "variante_3": "Sprung von Objekt zu Objekt ohne Bodenberührung."
+          }
         },
         {
           "id": "026",
-          "position": "2.9",
+          "position": "2.8",
           "kategorie": "Fortgeschrittene",
-          "titel": "Apportieren (Bringen)",
-          "bewegungsablauf": "Gegenstand aufnehmen, tragen und in die Hand abgeben.",
-          "endposition": "Hund sitzt vor dem Menschen und hält Gegenstand hin.",
-          "trainingstipps": "Übe das 'Halten' und 'Aus' separat vom Holen."
+          "titel": "zwischen",
+          "handzeichen": "Finger hinter Rücken nach unten.",
+          "bewegungsablauf": "Kommt durch Beine nach vorn.",
+          "endposition": "Steht zwischen Beinen.",
+          "trainingstipps": "Futter durch Beine.",
+          "steigerung": {
+            "variante_1": "Einfaches Reinstellen.",
+            "variante_2": "Mitlaufen in der 'Zwischen'-Position.",
+            "variante_3": "Seitwärtsgänge oder Drehungen während der Hund zwischen den Beinen ist."
+          }
         },
         {
           "id": "027",
-          "position": "2.10",
+          "position": "2.9",
           "kategorie": "Fortgeschrittene",
-          "titel": "Sprung (Hopp)",
-          "bewegungsablauf": "Hund springt über ein Hindernis (Bein, Stange, Arm).",
-          "endposition": "Landung auf der anderen Seite.",
-          "trainingstipps": "Niedrig anfangen, auf rutschfesten Untergrund achten."
+          "titel": "bring",
+          "handzeichen": "Zeigen + Einladen.",
+          "bewegungsablauf": "Trägt Objekt her.",
+          "endposition": "Vor Besitzer.",
+          "trainingstipps": "Teilschritte üben.",
+          "steigerung": {
+            "variante_1": "Bringen eines geworfenen Spielzeugs.",
+            "variante_2": "Suchen und Bringen eines versteckten Dummys ('Verloren Suche').",
+            "variante_3": "Bringen von namentlich unterschiedenen Objekten (Schlüssel vs. Handy)."
+          }
         },
         {
           "id": "028",
-          "position": "2.11",
+          "position": "2.10",
           "kategorie": "Fortgeschrittene",
-          "titel": "Pfoten auf Füße",
-          "bewegungsablauf": "Hund stellt sich mit den Vorderpfoten auf die Schuhe des Menschen.",
-          "endposition": "Hund steht dicht vor dem Menschen, Pfoten auf dessen Füßen.",
-          "trainingstipps": "Im Stehen zwischen die Beine locken, bis er auf die Füße tritt."
+          "titel": "Rechts ran",
+          "handzeichen": "Klopfen rechts.",
+          "bewegungsablauf": "Wechselt nach rechts.",
+          "endposition": "Sitzt rechts.",
+          "trainingstipps": "Hinter Rücken führen.",
+          "steigerung": {
+            "variante_1": "Wechsel im Stand.",
+            "variante_2": "Wechsel während des Laufens hinter dem Rücken.",
+            "variante_3": "Dauerhaftes Führen auf der rechten Seite (z.B. an der Straße)."
+          }
         },
         {
           "id": "029",
-          "position": "2.12",
+          "position": "2.11",
           "kategorie": "Fortgeschrittene",
-          "titel": "Aufräumen",
-          "bewegungsablauf": "Der Hund nimmt ein Spielzeug und lässt es in eine Kiste fallen.",
-          "endposition": "Spielzeug liegt in der Box, Hund schaut erwartungsvoll.",
-          "trainingstipps": "Kombination aus 'Nimm' und 'Aus' über der Kiste."
+          "titel": "drüber",
+          "handzeichen": "Armbewegung über Hindernis.",
+          "bewegungsablauf": "Springt über Hindernis.",
+          "endposition": "Landung dahinter.",
+          "trainingstipps": "Leckerli werfen.",
+          "steigerung": {
+            "variante_1": "Sprung über niedriges Hindernis/Bein.",
+            "variante_2": "Sprung durch die zum Kreis geformten Arme.",
+            "variante_3": "Weitsprung über breite Hindernisse (Bach/Graben)."
+          }
         },
         {
           "id": "030",
-          "position": "2.13",
+          "position": "2.12",
           "kategorie": "Fortgeschrittene",
-          "titel": "Gib Laut",
-          "bewegungsablauf": "Der Hund bellt einmalig auf Kommando.",
-          "endposition": "Hund bellt und ist danach wieder ruhig.",
-          "trainingstipps": "Frustration nutzen (Futter zeigen, nicht geben) oder Türklingel imitieren."
+          "titel": "drunter",
+          "handzeichen": "Hand flach unten.",
+          "bewegungsablauf": "Kriecht unten durch.",
+          "endposition": "Kommt hervor.",
+          "trainingstipps": "Beinbrücke.",
+          "steigerung": {
+            "variante_1": "Unter den Beinen durchkriechen.",
+            "variante_2": "Unter Stühlen/Bänken durchkriechen.",
+            "variante_3": "Kriechen über längere Distanz (Robben)."
+          }
         },
         {
           "id": "031",
-          "position": "2.14",
+          "position": "2.13",
           "kategorie": "Fortgeschrittene",
-          "titel": "Tür schließen",
-          "bewegungsablauf": "Der Hund drückt mit Nase oder Pfote eine Schrank- oder Zimmertür zu.",
-          "endposition": "Tür fällt ins Schloss.",
-          "trainingstipps": "Post-it an die Tür kleben und 'Touch' üben, dann Post-it entfernen."
+          "titel": "wuff",
+          "handzeichen": "Entenschnabel-Hand.",
+          "bewegungsablauf": "Gibt Laut.",
+          "endposition": "Bellt.",
+          "trainingstipps": "Frust nutzen.",
+          "steigerung": {
+            "variante_1": "Einmaliges Bellen.",
+            "variante_2": "Bellen auf Flüsterton ('Psst').",
+            "variante_3": "Unterscheidung: Lautes Bellen vs. leises Wuffen/Knurren."
+          }
         },
         {
           "id": "032",
-          "position": "2.15",
+          "position": "2.14",
           "kategorie": "Fortgeschrittene",
-          "titel": "Kuckuck",
-          "bewegungsablauf": "Der Hund steckt seinen Kopf von hinten durch die Beine des Menschen und schaut hoch.",
-          "endposition": "Hund steht hinter dem Menschen, Kopf schaut vorne zwischen den Beinen raus.",
-          "trainingstipps": "Ähnlich wie 'Mitte', aber der Hund bleibt weiter hinten stehen."
+          "titel": "Kratz kratz",
+          "handzeichen": "Kratzbewegung.",
+          "bewegungsablauf": "Scharrt mit Pfote.",
+          "endposition": "Kratzt.",
+          "trainingstipps": "Futter unter Tuch.",
+          "steigerung": {
+            "variante_1": "Kratzen am Boden/Teppich.",
+            "variante_2": "Kratzen an der Tür ('Ich will raus').",
+            "variante_3": "Kratzen an einer Pappe auf Distanz."
+          }
         },
         {
           "id": "033",
-          "position": "2.16",
+          "position": "2.15",
           "kategorie": "Fortgeschrittene",
-          "titel": "Umrunden (Gegenstand)",
-          "bewegungsablauf": "Der Hund läuft in Distanz um eine Pylone, einen Baum oder einen Stuhl.",
-          "endposition": "Hund kehrt nach der Runde zum Menschen zurück.",
-          "trainingstipps": "Baue Distanz schrittweise auf, zeige die Richtung mit dem Arm an."
+          "titel": "kuckkuck arm",
+          "handzeichen": "Arm waagerecht.",
+          "bewegungsablauf": "Pfoten auf Arm, Kopf drunter.",
+          "endposition": "Guckt durch.",
+          "trainingstipps": "Kopf drunter locken.",
+          "steigerung": {
+            "variante_1": "Kopf unter Arm stecken im Stehen.",
+            "variante_2": "Position halten und dabei laufen.",
+            "variante_3": "Kuckuck durch die Beine von vorne."
+          }
         },
         {
           "id": "034",
-          "position": "2.17",
+          "position": "2.16",
           "kategorie": "Fortgeschrittene",
-          "titel": "Halten (Hold)",
-          "bewegungsablauf": "Der Hund hält einen Gegenstand ruhig im Maul, ohne zu kauen.",
-          "endposition": "Statisches Halten bis zum Auflösekommando.",
-          "trainingstipps": "Sekundenweise bestätigen, solange der Kiefer ruhig ist."
+          "titel": "Geheimnis",
+          "handzeichen": "Hände als Trichter am Ohr.",
+          "bewegungsablauf": "Schnauze ins Ohr.",
+          "endposition": "Flüstert.",
+          "trainingstipps": "Tipp ans Ohr.",
+          "steigerung": {
+            "variante_1": "Nase berührt Ohr.",
+            "variante_2": "Hund hält die Position für ein Foto.",
+            "variante_3": "Hund 'wufft' leise ins Ohr."
+          }
         },
         {
           "id": "035",
+          "position": "2.17",
+          "kategorie": "Fortgeschrittene",
+          "titel": "Rolle",
+          "handzeichen": "Kreisbewegung.",
+          "bewegungsablauf": "Rollt um Längsachse.",
+          "endposition": "Liegt wieder.",
+          "trainingstipps": "Nase über Rücken führen.",
+          "steigerung": {
+            "variante_1": "Rolle aus dem Platz.",
+            "variante_2": "Rolle aus dem Stand.",
+            "variante_3": "Mehrfache Rollen hintereinander ('Kugel')."
+          }
+        },
+        {
+          "id": "036",
           "position": "2.18",
           "kategorie": "Fortgeschrittene",
-          "titel": "Spring durch die Arme",
-          "bewegungsablauf": "Der Mensch bildet mit den Armen einen Kreis, der Hund springt hindurch.",
-          "endposition": "Landung auf der anderen Seite.",
-          "trainingstipps": "Beginne mit einem Reifen am Boden, dann ersetze Reifen durch Arme."
+          "titel": "Peng",
+          "handzeichen": "Pistolen-Hand.",
+          "bewegungsablauf": "Fällt um, liegt tot.",
+          "endposition": "Flach auf Seite.",
+          "trainingstipps": "Kopf zur Seite schieben.",
+          "steigerung": {
+            "variante_1": "Hinlegen aus dem Platz.",
+            "variante_2": "Dramatisches Umfallen aus dem Stand.",
+            "variante_3": "Liegenbleiben auch bei Berührung/Anstupsen."
+          }
+        },
+        {
+          "id": "037",
+          "position": "2.19",
+          "kategorie": "Fortgeschrittene",
+          "titel": "Schäm dich",
+          "handzeichen": "Wischen über Nase.",
+          "bewegungsablauf": "Pfote wischt Gesicht.",
+          "endposition": "Gesicht bedeckt.",
+          "trainingstipps": "Post-it auf Nase.",
+          "steigerung": {
+            "variante_1": "Kurzes Wischen.",
+            "variante_2": "Pfote bleibt auf der Nase liegen.",
+            "variante_3": "Schämen im 'Häschen'-Sitz."
+          }
+        },
+        {
+          "id": "038",
+          "position": "2.20",
+          "kategorie": "Fortgeschrittene",
+          "titel": "Diener",
+          "handzeichen": "Hand unter Bauch.",
+          "bewegungsablauf": "Vorne tief, hinten hoch.",
+          "endposition": "Play Bow.",
+          "trainingstipps": "Bauch stützen.",
+          "steigerung": {
+            "variante_1": "Verbeugung aus dem Stand.",
+            "variante_2": "Verbeugung und dabei bellen.",
+            "variante_3": "Diener als Startposition für einen Sprung."
+          }
+        },
+        {
+          "id": "039",
+          "position": "2.21",
+          "kategorie": "Fortgeschrittene",
+          "titel": "Aufräumen",
+          "handzeichen": "Zeigen auf Spielzeug -> Kiste.",
+          "bewegungsablauf": "Legt Spielzeug in Kiste.",
+          "endposition": "Kiste voll.",
+          "trainingstipps": "Über Kiste üben.",
+          "steigerung": {
+            "variante_1": "Ein Spielzeug in eine Box fallen lassen.",
+            "variante_2": "Alle verstreuten Spielzeuge einsammeln.",
+            "variante_3": "Sortieren: Bälle in Kiste A, Teddys in Kiste B."
+          }
+        },
+        {
+          "id": "040",
+          "position": "2.22",
+          "kategorie": "Fortgeschrittene",
+          "titel": "Tür zu",
+          "handzeichen": "Zeigen auf Tür.",
+          "bewegungsablauf": "Drückt Tür zu.",
+          "endposition": "Tür im Schloss.",
+          "trainingstipps": "Touch an Tür.",
+          "steigerung": {
+            "variante_1": "Zudrücken einer Schranktür (Nase).",
+            "variante_2": "Zudrücken einer Zimmertür (Pfote/Boden).",
+            "variante_3": "Ziehen an einem Seil, um die Tür zu öffnen (!), dann schließen."
+          }
+        },
+        {
+          "id": "041",
+          "position": "2.23",
+          "kategorie": "Fortgeschrittene",
+          "titel": "Elefant",
+          "handzeichen": "Zeigen auf Eimer.",
+          "bewegungsablauf": "Vorderpfoten drauf, Hinterhand dreht.",
+          "endposition": "Drehung um Eimer.",
+          "trainingstipps": "Hinterhand-Bewusstsein.",
+          "steigerung": {
+            "variante_1": "Mit Vorderpfoten auf einem Eimer stehen.",
+            "variante_2": "Ein Schritt seitwärts mit der Hinterhand.",
+            "variante_3": "Volle Rotation der Hinterhand um den Eimer herum."
+          }
+        },
+        {
+          "id": "042",
+          "position": "2.24",
+          "kategorie": "Fortgeschrittene",
+          "titel": "Socken aus",
+          "handzeichen": "Zeigen auf Fuß.",
+          "bewegungsablauf": "Zieht Socke aus.",
+          "endposition": "Socke in Maul.",
+          "trainingstipps": "Locker anziehen.",
+          "steigerung": {
+            "variante_1": "Ziehen an der losen Spitze.",
+            "variante_2": "Ausziehen einer fest sitzenden Socke.",
+            "variante_3": "Ausziehen von Jackenärmeln (Reißverschluss-Helfer)."
+          }
         }
       ]
     },
     "pro": {
       "meta": {
-        "category_name": "Tricks für Profis",
+        "category_name": "Profi (Red)",
         "color_code": "red",
         "level_index": 3,
-        "description": "Höchste Schwierigkeitsstufe: Erfordert Balance, Kraft, Koordination oder hohe kognitive Leistung."
+        "description": "Höchste Schwierigkeitsstufe, Balance und kognitive Leistung."
       },
       "list": [
         {
-          "id": "036",
+          "id": "043",
           "position": "3.1",
           "kategorie": "Profi",
-          "titel": "Pfoten kreuzen",
-          "bewegungsablauf": "Im Platz/Sitz wird eine Pfote elegant über die andere gelegt.",
-          "endposition": "Gekreuzte Vorderbeine (Lady-Like Pose).",
-          "trainingstipps": "Target-Stick seitlich nutzen, damit der Hund die Pfote weit rüberziehen muss."
-        },
-        {
-          "id": "037",
-          "position": "3.2",
-          "kategorie": "Profi",
-          "titel": "Kriechen (Robben)",
-          "bewegungsablauf": "Vorwärtsbewegung im Platz, ohne den Bauch vom Boden zu heben.",
-          "endposition": "Hund liegt am Zielort immer noch flach am Boden.",
-          "trainingstipps": "Benutze einen Stuhl oder Beinbrücke, unter der der Hund durch muss."
-        },
-        {
-          "id": "038",
-          "position": "3.3",
-          "kategorie": "Profi",
-          "titel": "Humpeln",
-          "bewegungsablauf": "Laufen auf drei Beinen, eine Vorderpfote wird dauerhaft hochgehalten.",
-          "endposition": "Hüpfende Vorwärtsbewegung.",
-          "trainingstipps": "Nur für gesunde Hunde! Aus 'Pfote geben' im Stehen langsam vorwärts locken."
-        },
-        {
-          "id": "039",
-          "position": "3.4",
-          "kategorie": "Profi",
-          "titel": "Spanischer Schritt",
-          "bewegungsablauf": "Vorwärtsgehen mit übertrieben hohem Anheben der Vorderbeine (Paradeschritt).",
-          "endposition": "Stolzer Gang mit fliegenden Vorderpfoten.",
-          "trainingstipps": "Kombiniere 'Pfote links' und 'Pfote rechts' mit langsamer Vorwärtsbewegung."
-        },
-        {
-          "id": "040",
-          "position": "3.5",
-          "kategorie": "Profi",
-          "titel": "Seitwärts gehen",
-          "bewegungsablauf": "Laterales Gehen, Beine kreuzen sich, Körperachse bleibt gerade.",
-          "endposition": "Hund steht parallel verschoben zur Ausgangsposition.",
-          "trainingstipps": "In der Grundstellung am Bein blockierst du vorne/hinten, weichst nur seitlich aus."
-        },
-        {
-          "id": "041",
-          "position": "3.6",
-          "kategorie": "Profi",
-          "titel": "Slalom durch Beine (Gehend)",
-          "bewegungsablauf": "Mensch geht, Hund fädelt sich bei jedem Schritt durch die Beine.",
-          "endposition": "Flüssige Vorwärtsbewegung von Mensch und Hund.",
-          "trainingstipps": "Rhythmus ist wichtig. Timing des Leckerlis beim Durchtauchen."
-        },
-        {
-          "id": "042",
-          "position": "3.7",
-          "kategorie": "Profi",
-          "titel": "Acht (Beinslalom stehend)",
-          "bewegungsablauf": "Hund läuft eine Acht um die stehenden Beine des Menschen.",
-          "endposition": "Hund kommt wieder vorne in der Mitte an.",
-          "trainingstipps": "Führe den Hund mit beiden Händen abwechselnd hinter den Beinen rum."
-        },
-        {
-          "id": "043",
-          "position": "3.8",
-          "kategorie": "Profi",
-          "titel": "Reifen springen",
-          "bewegungsablauf": "Sprung durch einen frei gehaltenen Reifen/Hula-Hoop.",
-          "endposition": "Landung nach Durchquerung.",
-          "trainingstipps": "Achte darauf, dass der Hund nicht gegen den Rand springt."
+          "titel": "Männchen",
+          "handzeichen": "Hand hochhalten.",
+          "bewegungsablauf": "Steht auf Hinterbeinen.",
+          "endposition": "Vertikaler Stand.",
+          "trainingstipps": "Kurz üben (Rücken!).",
+          "steigerung": {
+            "variante_1": "Kurzes Aufstehen.",
+            "variante_2": "Stehen bleiben für 10 Sekunden.",
+            "variante_3": "Laufen auf den Hinterbeinen."
+          }
         },
         {
           "id": "044",
-          "position": "3.9",
+          "position": "3.2",
           "kategorie": "Profi",
-          "titel": "Balancieren (Objekte)",
-          "bewegungsablauf": "Stehen auf wackeligen oder schmalen Gegenständen (Igelball, Balken).",
-          "endposition": "Hund hält statisch die Balance auf dem Objekt.",
-          "trainingstipps": "Stärkt die Tiefenmuskulatur. Langsam aufbauen!"
+          "titel": "ZUrück",
+          "handzeichen": "Wegdrück-Geste vor Nase.",
+          "bewegungsablauf": "Robbt rückwärts.",
+          "endposition": "Liegt weiter hinten.",
+          "trainingstipps": "Durch Beine schieben.",
+          "steigerung": {
+            "variante_1": "Wenige Zentimeter zurückschieben.",
+            "variante_2": "Mehrere Meter am Stück rückwärts robben.",
+            "variante_3": "Rückwärts robben und dabei eine Rolle machen."
+          }
         },
         {
           "id": "045",
-          "position": "3.10",
+          "position": "3.3",
           "kategorie": "Profi",
-          "titel": "Steppen",
-          "bewegungsablauf": "Schnelles, abwechselndes Heben der Vorderpfoten auf der Stelle.",
-          "endposition": "Tippelnde Bewegung der Vorderhand.",
-          "trainingstipps": "Schnelle Folge von 'Pfote' und 'andere Pfote' ohne Handkontakt."
+          "titel": "Rückwärts gehen",
+          "handzeichen": "Auf Hund zugehen.",
+          "bewegungsablauf": "Geht rückwärts (stehend).",
+          "endposition": "Steht weiter hinten.",
+          "trainingstipps": "Gasse bilden.",
+          "steigerung": {
+            "variante_1": "Gerades Rückwärtsgehen in einer Gasse.",
+            "variante_2": "Rückwärtsgehen auf Distanz ohne Gasse.",
+            "variante_3": "Rückwärts Treppen steigen oder eine Wand hoch (Handstand-Vorbereitung)."
+          }
         },
         {
           "id": "046",
-          "position": "3.11",
+          "position": "3.4",
           "kategorie": "Profi",
-          "titel": "Rückwärts einparken",
-          "bewegungsablauf": "Der Hund läuft rückwärts durch die Beine des Menschen in die 'Mitte'-Position.",
-          "endposition": "Hund steht perfekt ausgerichtet zwischen den Beinen, Blick nach vorne.",
-          "trainingstipps": "Stell dich mit dem Rücken zum Hund und locke ihn rückwärts unter dich."
+          "titel": "Wall Ride",
+          "handzeichen": "Wurf auf Wand.",
+          "bewegungsablauf": "Springt gegen Wand, stoppt ab.",
+          "endposition": "Rebound.",
+          "trainingstipps": "Touch an Wand.",
+          "steigerung": {
+            "variante_1": "Vorderpfoten berühren im Sprung die Wand.",
+            "variante_2": "Alle viere berühren kurz die Wand (Parkour Turn).",
+            "variante_3": "Rückwärtssalto (Backflip) als Abstoß von der Wand/Körper."
+          }
         },
         {
           "id": "047",
-          "position": "3.12",
+          "position": "3.5",
           "kategorie": "Profi",
-          "titel": "Handstand",
-          "bewegungsablauf": "Hund läuft mit den Hinterbeinen eine Wand hoch oder steht frei auf Vorderpfoten.",
-          "endposition": "Hinterbeine sind in der Luft, Gewicht auf Vorderpfoten.",
-          "trainingstipps": "Extreme Belastung! Nur kurz üben. Rückwärts gegen eine Wand laufen lassen."
+          "titel": "Kriechen",
+          "handzeichen": "Hand zieht flach weg.",
+          "bewegungsablauf": "Robbt vorwärts.",
+          "endposition": "Kriecht.",
+          "trainingstipps": "Unter Stuhl.",
+          "steigerung": {
+            "variante_1": "Kurzes Kriechen unter Hindernis.",
+            "variante_2": "Schnelles 'Soldaten-Robben' über Distanz.",
+            "variante_3": "Kriechen mit Halt eines Gegenstands im Maul."
+          }
         },
         {
           "id": "048",
-          "position": "3.13",
+          "position": "3.6",
           "kategorie": "Profi",
-          "titel": "Rückwärts Slalom",
-          "bewegungsablauf": "Wie der normale Slalom, aber der Hund bewegt sich rückwärts durch die Beine.",
-          "endposition": "Hund und Mensch bewegen sich rückwärts, Hund fädelt durch.",
-          "trainingstipps": "Kombination aus 'Rückwärts laufen' und 'Slalom'. Hohe Koordination nötig."
+          "titel": "Pfoten kreuzen",
+          "handzeichen": "X-Finger.",
+          "bewegungsablauf": "Legt Pfote über andere.",
+          "endposition": "Gekreuzt.",
+          "trainingstipps": "Weit seitlich Pfote fordern.",
+          "steigerung": {
+            "variante_1": "Zufälliges Kreuzen markern.",
+            "variante_2": "Gezieltes Kreuzen auf Kommando 'Cross'.",
+            "variante_3": "Wechselseitiges Kreuzen (Links über Rechts, Rechts über Links)."
+          }
         },
         {
           "id": "049",
-          "position": "3.14",
+          "position": "3.7",
           "kategorie": "Profi",
-          "titel": "Skateboard fahren",
-          "bewegungsablauf": "Hund steht mit 2-4 Pfoten auf dem Board und schiebt ggf. an.",
-          "endposition": "Hund rollt auf dem Board.",
-          "trainingstipps": "Erst an das wackelige Board gewöhnen, dann das Rollen belohnen."
+          "titel": "Spanischer Schritt",
+          "handzeichen": "Tippen in Luft.",
+          "bewegungsablauf": "Hohes Beinheben im Gang.",
+          "endposition": "Stolzer Gang.",
+          "trainingstipps": "Pfote im Gehen.",
+          "steigerung": {
+            "variante_1": "Heben der Beine am Platz.",
+            "variante_2": "Langsames Vorwärtsgehen mit hohem Schritt.",
+            "variante_3": "Synchroner Spanischer Schritt neben dem Menschen."
+          }
         },
         {
           "id": "050",
-          "position": "3.15",
+          "position": "3.8",
           "kategorie": "Profi",
-          "titel": "Rebound",
-          "bewegungsablauf": "Der Hund springt gegen den Körper des Menschen und drückt sich davon ab (Rückwärtssalto-Ansatz oder Drehung).",
-          "endposition": "Hund landet wieder auf dem Boden, nachdem er sich abgestoßen hat.",
-          "trainingstipps": "Hund muss 'Touch' mit Pfoten am Körper kennen. Mensch muss stabil stehen."
+          "titel": "Slalom",
+          "handzeichen": "Führende Hände.",
+          "bewegungsablauf": "Durch Beine fädeln.",
+          "endposition": "Laufend.",
+          "trainingstipps": "Rhythmus.",
+          "steigerung": {
+            "variante_1": "Slalom mit Leckerli-Führung.",
+            "variante_2": "Slalom nur auf Beinsignal.",
+            "variante_3": "Rückwärts-Slalom (Mensch und Hund rückwärts)."
+          }
         },
         {
           "id": "051",
-          "position": "3.16",
+          "position": "3.9",
           "kategorie": "Profi",
-          "titel": "Namen unterscheiden",
-          "bewegungsablauf": "Aus einer Gruppe von Spielzeugen bringt der Hund nur das namentlich genannte.",
-          "endposition": "Hund bringt z.B. nur den 'Teddy' und nicht den 'Ball'.",
-          "trainingstipps": "Lerne jedem Spielzeug einzeln einen Namen, bevor du zwei nebeneinander legst."
+          "titel": "Acht",
+          "handzeichen": "8-Bewegung.",
+          "bewegungsablauf": "8 um Beine.",
+          "endposition": "Vorne.",
+          "trainingstipps": "Knie beugen.",
+          "steigerung": {
+            "variante_1": "Acht im Stehen.",
+            "variante_2": "Acht durch die gehenden Beine (Weaving).",
+            "variante_3": "Acht auf Distanz um zwei Pylonen."
+          }
         },
         {
           "id": "052",
+          "position": "3.10",
+          "kategorie": "Profi",
+          "titel": "Humpeln",
+          "handzeichen": "Schulter hochziehen.",
+          "bewegungsablauf": "Auf 3 Beinen laufen.",
+          "endposition": "Hüpft.",
+          "trainingstipps": "Pfote halten + Locken.",
+          "steigerung": {
+            "variante_1": "Ein Hüpfer.",
+            "variante_2": "Mehrere Schritte humpeln.",
+            "variante_3": "Humpeln im 'Fuß'."
+          }
+        },
+        {
+          "id": "053",
+          "position": "3.11",
+          "kategorie": "Profi",
+          "titel": "Seitwärts",
+          "handzeichen": "Schieben.",
+          "bewegungsablauf": "Laterales Gehen.",
+          "endposition": "Verschoben.",
+          "trainingstipps": "Blockieren.",
+          "steigerung": {
+            "variante_1": "Ein Schritt zur Seite (Vorderhand).",
+            "variante_2": "Ganzkörper-Seitwärtsbewegung.",
+            "variante_3": "Seitwärtsgehen auf Distanz vom Menschen weg."
+          }
+        },
+        {
+          "id": "054",
+          "position": "3.12",
+          "kategorie": "Profi",
+          "titel": "Einparken",
+          "handzeichen": "Hände hinter Rücken.",
+          "bewegungsablauf": "Rückwärts durch Beine.",
+          "endposition": "Mitte.",
+          "trainingstipps": "Rückwärts locken.",
+          "steigerung": {
+            "variante_1": "Einparken mit Futtertreiben.",
+            "variante_2": "Einparken aus der Distanz (Hund dreht sich ein).",
+            "variante_3": "Einparken und sofortiges 'Männchen' oder 'Sitz'."
+          }
+        },
+        {
+          "id": "055",
+          "position": "3.13",
+          "kategorie": "Profi",
+          "titel": "Reifen",
+          "handzeichen": "Kreis-Arme.",
+          "bewegungsablauf": "Springt durch.",
+          "endposition": "Landung.",
+          "trainingstipps": "Boden starten.",
+          "steigerung": {
+            "variante_1": "Durchlaufen am Boden.",
+            "variante_2": "Sprung durch Reifen auf Hüfthöhe.",
+            "variante_3": "Sprung durch die Arme des Menschen (Körperreifen)."
+          }
+        },
+        {
+          "id": "056",
+          "position": "3.14",
+          "kategorie": "Profi",
+          "titel": "Skateboard",
+          "handzeichen": "Anschieben.",
+          "bewegungsablauf": "Fährt Board.",
+          "endposition": "Rollt.",
+          "trainingstipps": "Stehen üben.",
+          "steigerung": {
+            "variante_1": "Sicherer Stand auf stehendem Board.",
+            "variante_2": "Rollen lassen (Mensch schiebt).",
+            "variante_3": "Hund stößt sich selbst ab ('Push')."
+          }
+        },
+        {
+          "id": "057",
+          "position": "3.15",
+          "kategorie": "Profi",
+          "titel": "Handstand",
+          "handzeichen": "Hand hoch an Wand.",
+          "bewegungsablauf": "Hinterbeine an Wand hoch.",
+          "endposition": "Kopfüber.",
+          "trainingstipps": "Rückwärts hochlaufen.",
+          "steigerung": {
+            "variante_1": "Hinterpfoten leicht erhöht auf Kiste.",
+            "variante_2": "Steiler Winkel an der Wand.",
+            "variante_3": "Freier Handstand ohne Wandstütze (Akrobatik)."
+          }
+        },
+        {
+          "id": "058",
+          "position": "3.16",
+          "kategorie": "Profi",
+          "titel": "Umarmen",
+          "handzeichen": "Arme auf.",
+          "bewegungsablauf": "Pfoten auf Schultern.",
+          "endposition": "Umarmung.",
+          "trainingstipps": "Kommando wichtig.",
+          "steigerung": {
+            "variante_1": "Pfoten auf Hüfte.",
+            "variante_2": "Pfoten auf Schultern (im Stehen).",
+            "variante_3": "Umarmen von hinten (Polonaise)."
+          }
+        },
+        {
+          "id": "059",
           "position": "3.17",
           "kategorie": "Profi",
-          "titel": "Kopf schütteln (Nein)",
-          "bewegungsablauf": "Der Hund schüttelt den Kopf hin und her.",
-          "endposition": "Kurzes Schütteln.",
-          "trainingstipps": "Kitzeln am Ohr oder leichtes Pusten, sofortiges Markern der Bewegung."
+          "titel": "Beten",
+          "handzeichen": "Gebetshände.",
+          "bewegungsablauf": "Kopf zwischen Pfoten.",
+          "endposition": "Versteckt.",
+          "trainingstipps": "Pfoten auf Stuhl.",
+          "steigerung": {
+            "variante_1": "Kopf ablegen auf Stuhlkante.",
+            "variante_2": "Kopf tief zwischen die Vorderbeine stecken.",
+            "variante_3": "Beten im Männchen-Sitz (ohne Stütze)."
+          }
+        },
+        {
+          "id": "060",
+          "position": "3.18",
+          "kategorie": "Profi",
+          "titel": "Rebound",
+          "handzeichen": "Klopfen auf Brust.",
+          "bewegungsablauf": "Sprung gegen Körper + Abstoß.",
+          "endposition": "Landung.",
+          "trainingstipps": "Touch Körper.",
+          "steigerung": {
+            "variante_1": "Vorderpfoten-Touch am Bauch.",
+            "variante_2": "Absprung vom Bauch (Vault).",
+            "variante_3": "Salto über den Rücken des Menschen."
+          }
         }
       ]
     }
